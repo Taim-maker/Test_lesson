@@ -17,4 +17,18 @@
 # STRINGs
 a = 'Привет "Tom"'
 b = "Hello 'Tom'"
-print(a[-1])
+print(a[1])
+print(a[0:10:2])
+print(a[::-1])
+print(b.lower())
+print(b.upper())
+print(b.isdigit())
+print(b.count('o'))
+print(b.index("'"))
+a = input("enter a number")
+if a.isdigit():
+    a = int(a)
+else:
+    print('wrong type of data')
+
+
